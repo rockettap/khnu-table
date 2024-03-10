@@ -1,0 +1,80 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #25291c;
+}
+
+thead th:nth-child(1) {
+  width: 55%;
+}
+
+thead th:nth-child(2) {
+  width: 35%;
+}
+
+thead th:nth-child(3) {
+  width: 30%;
+}
+
+th,
+td {
+  padding: 12px;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.4)
+  );
+  border: 2px solid #25291c;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e3e7d3;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c9d1ab;
+}
+
+table {
+  background-color: #c9d1ab;
+}
+
+caption {
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  padding: 24px;
+  font-style: italic;
+  caption-side: bottom;
+  text-align: right;
+  letter-spacing: 1px;
+}
